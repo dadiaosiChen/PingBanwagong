@@ -1,0 +1,7 @@
+[BWG_host]
+addr=xx.xx.xx.xx
+[Email]
+mail_to=xxxxxx@qq.com
+mail_host=smtp.163.com
+mail_user=xxxxxx@163.com
+mail_pass=xxxxx
