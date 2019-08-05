@@ -13,7 +13,9 @@ workpath = os.getcwd()
 #print workpath+'\\config.ini'
 #主要linux环境下斜杠是反的！ 要用/
 cf = configparser.ConfigParser()
-cf.read(workpath+'\\config.ini')
+#用os.sep来获取文件分割符
+#cf.read(workpath+'\\config.ini')
+cf.read(workpath+os.sep+'config.ini')
 
 
 '''
